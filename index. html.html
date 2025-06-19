@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>RS Digital Marketing & Meta Ads</title><style>
+body{margin:0;font-family:'Segoe UI',sans-serif;background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;text-align:center;}
+h1{font-size:2.5rem;margin-bottom:0.5rem}p{font-size:1.2rem;margin:0.3rem 0}.btn{background:#00c6ff;color:#fff;padding:15px 30px;border:none;border-radius:50px;font-size:1rem;cursor:pointer;margin-top:20px;transition:all .3s ease}
+.btn:hover{background:#0072ff}.countdown{font-size:2rem;font-weight:bold;color:#00ffcc;margin-top:20px}
+</style></head>
+<body>
+<h1>RS Digital Marketing & Meta Ads</h1>
+<p>📉 Run Meta Ads at Low CPC</p>
+<p>🎯 For Business Growth & Leads</p>
+<p>💼 Ads Setup & Management</p>
+<p>📲 DM for Service</p>
+<button class="btn" id="joinBtn" disabled>⏳ Please Wait...</button>
+<div class="countdown" id="timer">10</div>
+<script>
+let timeLeft=10;
+const timer=document.getElementById('timer'),joinBtn=document.getElementById('joinBtn');
+const interval=setInterval(()=>{
+  timeLeft--;timer.textContent=timeLeft;
+  if(timeLeft<=0){
+    clearInterval(interval);
+    timer.textContent="Let's Go! 🚀";
+    joinBtn.innerText="🚀 Join Now";
+    joinBtn.disabled=false;
+    joinBtn.onclick=()=>window.location.href="https://t.me/+279EPR9hlFZlMGQ1";
+    window.location.href="https://t.me/+279EPR9hlFZlMGQ1";
+  }
+},1000);
+</script>
+</body>
+</html>
